@@ -34,6 +34,16 @@ export function CustomCursor() {
     };
   }, []);
 
+
+  if (typeof window !== 'undefined') {
+    const isTouchDevice = window.matchMedia('(pointer: coarse)').matches;
+    const isMobileScreen = window.innerWidth < 1024;
+    
+    if (isTouchDevice || isMobileScreen) {
+      return null; 
+    }
+  }
+
   return (
     <>
       <motion.div
