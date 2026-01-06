@@ -76,7 +76,7 @@ export function HomePage({ onNavigate }: HomePageProps) {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-24">
-         {projects.slice(0, 4).map((project) => (
+          {projects.slice(0, 4).map((project, index) => (
             <ProjectCard
               key={project.id}
               title={project.title}
