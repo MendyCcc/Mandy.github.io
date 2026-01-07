@@ -52,11 +52,11 @@ export function AboutPage() {
             transition={{ type: "spring", stiffness: 100, damping: 20, delay: 0.2 }}
             className="w-full max-w-6xl mb-32"
           >
-            <p className="text-xl mb-8 leading-relaxed">
+            <p className="text-lg mb-2 leading-relaxed">
               I’m a Designer crafting emotionally intelligent interfaces 
               across physical and digital environments. 
             </p>
-            <p className="text-lg opacity-80 mb-8 leading-relaxed">
+            <p className="text-lg opacity-80 mb-2 leading-relaxed">
               With a focus on human-centered AI and interaction systems, my
                current work explores how technology can meaningfully support memory, 
               attention, and emotional connection—quietly embedded in everyday experiences.
@@ -176,7 +176,7 @@ export function AboutPage() {
         {/* Philosophy */}
         <motion.section {...fadeInUp} className="max-w-6xl">
           <h2 className="mb-8 text-[var(--accent)]">Design Philosophy</h2>
-          <div className="space-y-6 text-xl leading-relaxed opacity-80">
+          <div className="space-y-6 text-lg leading-relaxed opacity-80">
             <p>
               Design is not just about solving problems — it's about understanding the
               human condition and creating experiences that resonate on an emotional level.
